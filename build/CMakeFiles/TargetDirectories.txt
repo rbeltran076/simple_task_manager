@@ -1,0 +1,3 @@
+/Users/jd/Documents/TaskManagerProject/build/CMakeFiles/TaskManager.dir
+/Users/jd/Documents/TaskManagerProject/build/CMakeFiles/edit_cache.dir
+/Users/jd/Documents/TaskManagerProject/build/CMakeFiles/rebuild_cache.dir
