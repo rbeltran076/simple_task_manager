@@ -3,14 +3,18 @@ cmake_minimum_required(VERSION 3.10)
 # Project Name
 project(TaskManagerProject)
 
-# C++ Standard
+# Set the C++ standard
 set(CMAKE_CXX_STANDARD 17)
 
-# Include header files
-include_directories(include)
+# Include directories for header files
+include_directories(${PROJECT_SOURCE_DIR}/include)
 
-# Add source files
-add_executable(TaskManager main.cpp src/Task.cpp src/TaskManager.cpp)
+# Add executable and link source files
+add_executable(TaskManager 
+    main.cpp 
+    src/Task.cpp 
+    src/TaskManager.cpp
+)
 
-# (Optional) Link external libraries
-# target_link_libraries(TaskManager sqlite3)
+# Optional: You don't need to explicitly add the header files to add_executable,
+# but they can be listed for clarity
