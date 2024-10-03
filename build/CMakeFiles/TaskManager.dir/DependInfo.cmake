@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/jd/Documents/TaskManagerProject/main.cpp" "CMakeFiles/TaskManager.dir/main.cpp.o" "gcc" "CMakeFiles/TaskManager.dir/main.cpp.o.d"
-  "/Users/jd/Documents/TaskManagerProject/src/Task.cpp" "CMakeFiles/TaskManager.dir/src/Task.cpp.o" "gcc" "CMakeFiles/TaskManager.dir/src/Task.cpp.o.d"
-  "/Users/jd/Documents/TaskManagerProject/src/TaskManager.cpp" "CMakeFiles/TaskManager.dir/src/TaskManager.cpp.o" "gcc" "CMakeFiles/TaskManager.dir/src/TaskManager.cpp.o.d"
+  "/Users/jd/Documents/git_repos/Task_manager_AI/main.cpp" "CMakeFiles/TaskManager.dir/main.cpp.o" "gcc" "CMakeFiles/TaskManager.dir/main.cpp.o.d"
+  "/Users/jd/Documents/git_repos/Task_manager_AI/src/Task.cpp" "CMakeFiles/TaskManager.dir/src/Task.cpp.o" "gcc" "CMakeFiles/TaskManager.dir/src/Task.cpp.o.d"
+  "/Users/jd/Documents/git_repos/Task_manager_AI/src/TaskManager.cpp" "CMakeFiles/TaskManager.dir/src/TaskManager.cpp.o" "gcc" "CMakeFiles/TaskManager.dir/src/TaskManager.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

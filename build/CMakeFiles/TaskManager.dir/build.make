@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.30.3/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jd/Documents/TaskManagerProject
+CMAKE_SOURCE_DIR = /Users/jd/Documents/git_repos/Task_manager_AI
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jd/Documents/TaskManagerProject/build
+CMAKE_BINARY_DIR = /Users/jd/Documents/git_repos/Task_manager_AI/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/TaskManager.dir/depend.make
@@ -70,46 +70,46 @@ include CMakeFiles/TaskManager.dir/progress.make
 include CMakeFiles/TaskManager.dir/flags.make
 
 CMakeFiles/TaskManager.dir/main.cpp.o: CMakeFiles/TaskManager.dir/flags.make
-CMakeFiles/TaskManager.dir/main.cpp.o: /Users/jd/Documents/TaskManagerProject/main.cpp
+CMakeFiles/TaskManager.dir/main.cpp.o: /Users/jd/Documents/git_repos/Task_manager_AI/main.cpp
 CMakeFiles/TaskManager.dir/main.cpp.o: CMakeFiles/TaskManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jd/Documents/TaskManagerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TaskManager.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TaskManager.dir/main.cpp.o -MF CMakeFiles/TaskManager.dir/main.cpp.o.d -o CMakeFiles/TaskManager.dir/main.cpp.o -c /Users/jd/Documents/TaskManagerProject/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jd/Documents/git_repos/Task_manager_AI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/TaskManager.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TaskManager.dir/main.cpp.o -MF CMakeFiles/TaskManager.dir/main.cpp.o.d -o CMakeFiles/TaskManager.dir/main.cpp.o -c /Users/jd/Documents/git_repos/Task_manager_AI/main.cpp
 
 CMakeFiles/TaskManager.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TaskManager.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jd/Documents/TaskManagerProject/main.cpp > CMakeFiles/TaskManager.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jd/Documents/git_repos/Task_manager_AI/main.cpp > CMakeFiles/TaskManager.dir/main.cpp.i
 
 CMakeFiles/TaskManager.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TaskManager.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jd/Documents/TaskManagerProject/main.cpp -o CMakeFiles/TaskManager.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jd/Documents/git_repos/Task_manager_AI/main.cpp -o CMakeFiles/TaskManager.dir/main.cpp.s
 
 CMakeFiles/TaskManager.dir/src/Task.cpp.o: CMakeFiles/TaskManager.dir/flags.make
-CMakeFiles/TaskManager.dir/src/Task.cpp.o: /Users/jd/Documents/TaskManagerProject/src/Task.cpp
+CMakeFiles/TaskManager.dir/src/Task.cpp.o: /Users/jd/Documents/git_repos/Task_manager_AI/src/Task.cpp
 CMakeFiles/TaskManager.dir/src/Task.cpp.o: CMakeFiles/TaskManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jd/Documents/TaskManagerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TaskManager.dir/src/Task.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TaskManager.dir/src/Task.cpp.o -MF CMakeFiles/TaskManager.dir/src/Task.cpp.o.d -o CMakeFiles/TaskManager.dir/src/Task.cpp.o -c /Users/jd/Documents/TaskManagerProject/src/Task.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jd/Documents/git_repos/Task_manager_AI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TaskManager.dir/src/Task.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TaskManager.dir/src/Task.cpp.o -MF CMakeFiles/TaskManager.dir/src/Task.cpp.o.d -o CMakeFiles/TaskManager.dir/src/Task.cpp.o -c /Users/jd/Documents/git_repos/Task_manager_AI/src/Task.cpp
 
 CMakeFiles/TaskManager.dir/src/Task.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TaskManager.dir/src/Task.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jd/Documents/TaskManagerProject/src/Task.cpp > CMakeFiles/TaskManager.dir/src/Task.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jd/Documents/git_repos/Task_manager_AI/src/Task.cpp > CMakeFiles/TaskManager.dir/src/Task.cpp.i
 
 CMakeFiles/TaskManager.dir/src/Task.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TaskManager.dir/src/Task.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jd/Documents/TaskManagerProject/src/Task.cpp -o CMakeFiles/TaskManager.dir/src/Task.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jd/Documents/git_repos/Task_manager_AI/src/Task.cpp -o CMakeFiles/TaskManager.dir/src/Task.cpp.s
 
 CMakeFiles/TaskManager.dir/src/TaskManager.cpp.o: CMakeFiles/TaskManager.dir/flags.make
-CMakeFiles/TaskManager.dir/src/TaskManager.cpp.o: /Users/jd/Documents/TaskManagerProject/src/TaskManager.cpp
+CMakeFiles/TaskManager.dir/src/TaskManager.cpp.o: /Users/jd/Documents/git_repos/Task_manager_AI/src/TaskManager.cpp
 CMakeFiles/TaskManager.dir/src/TaskManager.cpp.o: CMakeFiles/TaskManager.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jd/Documents/TaskManagerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TaskManager.dir/src/TaskManager.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TaskManager.dir/src/TaskManager.cpp.o -MF CMakeFiles/TaskManager.dir/src/TaskManager.cpp.o.d -o CMakeFiles/TaskManager.dir/src/TaskManager.cpp.o -c /Users/jd/Documents/TaskManagerProject/src/TaskManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/jd/Documents/git_repos/Task_manager_AI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TaskManager.dir/src/TaskManager.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TaskManager.dir/src/TaskManager.cpp.o -MF CMakeFiles/TaskManager.dir/src/TaskManager.cpp.o.d -o CMakeFiles/TaskManager.dir/src/TaskManager.cpp.o -c /Users/jd/Documents/git_repos/Task_manager_AI/src/TaskManager.cpp
 
 CMakeFiles/TaskManager.dir/src/TaskManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TaskManager.dir/src/TaskManager.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jd/Documents/TaskManagerProject/src/TaskManager.cpp > CMakeFiles/TaskManager.dir/src/TaskManager.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jd/Documents/git_repos/Task_manager_AI/src/TaskManager.cpp > CMakeFiles/TaskManager.dir/src/TaskManager.cpp.i
 
 CMakeFiles/TaskManager.dir/src/TaskManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TaskManager.dir/src/TaskManager.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jd/Documents/TaskManagerProject/src/TaskManager.cpp -o CMakeFiles/TaskManager.dir/src/TaskManager.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jd/Documents/git_repos/Task_manager_AI/src/TaskManager.cpp -o CMakeFiles/TaskManager.dir/src/TaskManager.cpp.s
 
 # Object files for target TaskManager
 TaskManager_OBJECTS = \
@@ -125,7 +125,7 @@ TaskManager: CMakeFiles/TaskManager.dir/src/Task.cpp.o
 TaskManager: CMakeFiles/TaskManager.dir/src/TaskManager.cpp.o
 TaskManager: CMakeFiles/TaskManager.dir/build.make
 TaskManager: CMakeFiles/TaskManager.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/jd/Documents/TaskManagerProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable TaskManager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/jd/Documents/git_repos/Task_manager_AI/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable TaskManager"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TaskManager.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -137,6 +137,6 @@ CMakeFiles/TaskManager.dir/clean:
 .PHONY : CMakeFiles/TaskManager.dir/clean
 
 CMakeFiles/TaskManager.dir/depend:
-	cd /Users/jd/Documents/TaskManagerProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jd/Documents/TaskManagerProject /Users/jd/Documents/TaskManagerProject /Users/jd/Documents/TaskManagerProject/build /Users/jd/Documents/TaskManagerProject/build /Users/jd/Documents/TaskManagerProject/build/CMakeFiles/TaskManager.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/jd/Documents/git_repos/Task_manager_AI/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jd/Documents/git_repos/Task_manager_AI /Users/jd/Documents/git_repos/Task_manager_AI /Users/jd/Documents/git_repos/Task_manager_AI/build /Users/jd/Documents/git_repos/Task_manager_AI/build /Users/jd/Documents/git_repos/Task_manager_AI/build/CMakeFiles/TaskManager.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/TaskManager.dir/depend
 
