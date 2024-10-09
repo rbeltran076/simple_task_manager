@@ -9,12 +9,13 @@ set(CMAKE_CXX_STANDARD 17)
 # Include directories for header files
 include_directories(${PROJECT_SOURCE_DIR}/include)
 
-# Add executable and link source files
-add_executable(TaskManager 
-    main.cpp 
-    src/Task.cpp 
-    src/TaskManager.cpp
-)
 
-# Optional: You don't need to explicitly add the header files to add_executable,
-# but they can be listed for clarity
+# Add source files
+add_executable(TaskManager
+    main.cpp
+    src/TaskManager.cpp
+    src/AiTask.cpp
+    src/HpcTask.cpp
+    src/ProgrammingTask.cpp
+    src/DevopsTask.cpp
+)

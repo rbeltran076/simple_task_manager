@@ -153,29 +153,101 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-src/Task.o: src/Task.cpp.o
-.PHONY : src/Task.o
+src/AiTask.o: src/AiTask.cpp.o
+.PHONY : src/AiTask.o
 
 # target to build an object file
-src/Task.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/src/Task.cpp.o
-.PHONY : src/Task.cpp.o
+src/AiTask.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/src/AiTask.cpp.o
+.PHONY : src/AiTask.cpp.o
 
-src/Task.i: src/Task.cpp.i
-.PHONY : src/Task.i
+src/AiTask.i: src/AiTask.cpp.i
+.PHONY : src/AiTask.i
 
 # target to preprocess a source file
-src/Task.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/src/Task.cpp.i
-.PHONY : src/Task.cpp.i
+src/AiTask.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/src/AiTask.cpp.i
+.PHONY : src/AiTask.cpp.i
 
-src/Task.s: src/Task.cpp.s
-.PHONY : src/Task.s
+src/AiTask.s: src/AiTask.cpp.s
+.PHONY : src/AiTask.s
 
 # target to generate assembly for a file
-src/Task.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/src/Task.cpp.s
-.PHONY : src/Task.cpp.s
+src/AiTask.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/src/AiTask.cpp.s
+.PHONY : src/AiTask.cpp.s
+
+src/DevopsTask.o: src/DevopsTask.cpp.o
+.PHONY : src/DevopsTask.o
+
+# target to build an object file
+src/DevopsTask.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/src/DevopsTask.cpp.o
+.PHONY : src/DevopsTask.cpp.o
+
+src/DevopsTask.i: src/DevopsTask.cpp.i
+.PHONY : src/DevopsTask.i
+
+# target to preprocess a source file
+src/DevopsTask.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/src/DevopsTask.cpp.i
+.PHONY : src/DevopsTask.cpp.i
+
+src/DevopsTask.s: src/DevopsTask.cpp.s
+.PHONY : src/DevopsTask.s
+
+# target to generate assembly for a file
+src/DevopsTask.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/src/DevopsTask.cpp.s
+.PHONY : src/DevopsTask.cpp.s
+
+src/HpcTask.o: src/HpcTask.cpp.o
+.PHONY : src/HpcTask.o
+
+# target to build an object file
+src/HpcTask.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/src/HpcTask.cpp.o
+.PHONY : src/HpcTask.cpp.o
+
+src/HpcTask.i: src/HpcTask.cpp.i
+.PHONY : src/HpcTask.i
+
+# target to preprocess a source file
+src/HpcTask.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/src/HpcTask.cpp.i
+.PHONY : src/HpcTask.cpp.i
+
+src/HpcTask.s: src/HpcTask.cpp.s
+.PHONY : src/HpcTask.s
+
+# target to generate assembly for a file
+src/HpcTask.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/src/HpcTask.cpp.s
+.PHONY : src/HpcTask.cpp.s
+
+src/ProgrammingTask.o: src/ProgrammingTask.cpp.o
+.PHONY : src/ProgrammingTask.o
+
+# target to build an object file
+src/ProgrammingTask.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/src/ProgrammingTask.cpp.o
+.PHONY : src/ProgrammingTask.cpp.o
+
+src/ProgrammingTask.i: src/ProgrammingTask.cpp.i
+.PHONY : src/ProgrammingTask.i
+
+# target to preprocess a source file
+src/ProgrammingTask.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/src/ProgrammingTask.cpp.i
+.PHONY : src/ProgrammingTask.cpp.i
+
+src/ProgrammingTask.s: src/ProgrammingTask.cpp.s
+.PHONY : src/ProgrammingTask.s
+
+# target to generate assembly for a file
+src/ProgrammingTask.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TaskManager.dir/build.make CMakeFiles/TaskManager.dir/src/ProgrammingTask.cpp.s
+.PHONY : src/ProgrammingTask.cpp.s
 
 src/TaskManager.o: src/TaskManager.cpp.o
 .PHONY : src/TaskManager.o
@@ -213,9 +285,18 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... src/Task.o"
-	@echo "... src/Task.i"
-	@echo "... src/Task.s"
+	@echo "... src/AiTask.o"
+	@echo "... src/AiTask.i"
+	@echo "... src/AiTask.s"
+	@echo "... src/DevopsTask.o"
+	@echo "... src/DevopsTask.i"
+	@echo "... src/DevopsTask.s"
+	@echo "... src/HpcTask.o"
+	@echo "... src/HpcTask.i"
+	@echo "... src/HpcTask.s"
+	@echo "... src/ProgrammingTask.o"
+	@echo "... src/ProgrammingTask.i"
+	@echo "... src/ProgrammingTask.s"
 	@echo "... src/TaskManager.o"
 	@echo "... src/TaskManager.i"
 	@echo "... src/TaskManager.s"

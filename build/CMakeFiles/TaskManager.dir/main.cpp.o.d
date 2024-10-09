@@ -956,5 +956,9 @@ CMakeFiles/TaskManager.dir/main.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/__format/formatter_tuple.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/c++/v1/print \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk/usr/include/unistd.h \
-  /Users/jd/Documents/git_repos/Task_manager_AI/include/Task.h \
-  /Users/jd/Documents/git_repos/Task_manager_AI/include/TaskManager.h
+  /Users/jd/Documents/git_repos/Task_manager_AI/include/TaskManager.h \
+  /Users/jd/Documents/git_repos/Task_manager_AI/include/BaseTask.h \
+  /Users/jd/Documents/git_repos/Task_manager_AI/include/AiTask.h \
+  /Users/jd/Documents/git_repos/Task_manager_AI/include/HpcTask.h \
+  /Users/jd/Documents/git_repos/Task_manager_AI/include/ProgrammingTask.h \
+  /Users/jd/Documents/git_repos/Task_manager_AI/include/DevopsTask.h
