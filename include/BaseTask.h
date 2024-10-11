@@ -24,9 +24,7 @@ public:
         isCompleted = true;
     }
 
-    bool isTaskCompleted() const {
-        return isCompleted;
-    }
+    bool isTaskCompleted() const { return isCompleted; }
 
     virtual std::string getName() const { return name; }
     virtual int getPriority() const { return priority; }
