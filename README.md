@@ -1,4 +1,4 @@
-# Task_manager_AI
+# Task_manager
 We created a task manager that allows you to:
 - Add tasks
 - Rank them by priority
